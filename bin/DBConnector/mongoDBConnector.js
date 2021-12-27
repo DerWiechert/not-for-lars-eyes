@@ -3,7 +3,6 @@ const debug = require('debug')('not-for-lars-eyes:mongoDBConnector');
 const AbstractDBConnector = require('./abstractDBConnector');
 const { DWDRAW, OWMRAW } = require('../enum/db_sources')
 
-
 class MongoDBConnector extends AbstractDBConnector {
     constructor() {
         super();
